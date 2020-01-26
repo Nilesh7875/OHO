@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp">
+
+        <ImageView
+            android:id="@+id/travel_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/travel" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number :"
+            android:textSize="25sp"
+            android:layout_marginTop="100sp"
+            android:layout_below="@+id/travel_logo"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20sp" />
+
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailText"
+            android:layout_marginTop="50sp"
+            android:inputType="number"
+            android:hint="Your Mobile Number"/>
+
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="50sp"
+            android:text="Generate OTP"
+            android:padding="20sp"
+            android:gravity="center"
+            android:layout_below="@id/phoneInput"/>
+
+    </RelativeLayout>
+
+</ScrollView>

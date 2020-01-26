@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979815570597",
+    "firebase_url": "https://sharejourney-60058.firebaseio.com",
+    "project_id": "sharejourney-60058",
+    "storage_bucket": "sharejourney-60058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979815570597:android:83eed58158242c6737014c",
+        "android_client_info": {
+          "package_name": "com.example.shareoho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979815570597-c36kvqp9utv3hrfu7h1orkosbmfes031.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shareoho",
+            "certificate_hash": "aec868cadf46114785872709db3a30adf3dd4b18"
+          }
+        },
+        {
+          "client_id": "979815570597-ri48674j82m9ke9jm0rm61mpsknkg8cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGj92MMSCLsGXy-yNT8lp3mIJGR38ybHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979815570597-ri48674j82m9ke9jm0rm61mpsknkg8cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
