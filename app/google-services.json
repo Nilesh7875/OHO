@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890272510274",
+    "firebase_url": "https://shareoho.firebaseio.com",
+    "project_id": "shareoho",
+    "storage_bucket": "shareoho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890272510274:android:95d731b4ec98fd396958db",
+        "android_client_info": {
+          "package_name": "com.example.testoho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890272510274-q08158gtpcpgnushusknd1jqknun29hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testoho",
+            "certificate_hash": "aec868cadf46114785872709db3a30adf3dd4b18"
+          }
+        },
+        {
+          "client_id": "890272510274-ull6ciso1n6gaf1hho6gstag5g47p1vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg-ja4wXS9tZ9RHlQnPDuVviANKsqsR3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890272510274-ull6ciso1n6gaf1hho6gstag5g47p1vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

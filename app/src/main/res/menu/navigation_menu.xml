@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_car"
+        android:icon="@drawable/car_logo"
+        android:title="Car"
+        />
+
+    <item
+        android:id="@+id/nav_bike"
+        android:icon="@drawable/bike"
+        android:title="Bike"
+        />
+    <item
+        android:id="@+id/nav_auto"
+        android:icon="@drawable/auto"
+        android:title="auto"
+        />
+
+
+</menu>

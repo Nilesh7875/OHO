@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyOTP"
+    android:padding="20sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".VerifyOTP">
+
+        <ImageView
+            android:id="@+id/travel_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/travel" />
+
+        <Button
+            android:id="@+id/verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify and Proceed"
+            android:textSize="20sp"
+            android:padding="10sp"
+            android:layout_marginTop="50sp"
+            android:layout_below="@+id/otp_input"/>
+
+        <EditText
+            android:id="@+id/otp_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otp_text"
+            android:inputType="number"
+            android:layout_marginTop="50sp"/>
+
+        <TextView
+            android:id="@+id/otp_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/travel_logo"
+            android:text="Enter OTP :"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="75sp"/>
+    </RelativeLayout>
+
+
+</ScrollView>

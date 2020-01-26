@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetProfile"
+    android:padding="30sp"
+    android:id="@+id/setProfileContainer">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/travel_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/travel"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20sp"
+        android:hint="Name"
+        android:layout_below="@+id/usernamrText"/>
+
+    <TextView
+        android:id="@+id/usernamrText"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:text="Your Name :"
+        android:layout_below="@+id/travel_logo"/>
+
+    <TextView
+        android:id="@+id/vehichleInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Do You Have Any Vehichle ?"
+        android:layout_below="@id/username"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup"
+        android:layout_below="@+id/vehichleInfo"
+        android:checkedButton="@id/No">
+
+    <RadioButton
+        android:id="@+id/Yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/link_color"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:padding="20sp"
+        android:text="Yes"
+        android:layout_below="@id/vehichleInfo"/>
+
+    <RadioButton
+        android:id="@+id/No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/link_color"
+        android:padding="20sp"
+        android:text="No"
+        android:layout_below="@id/vehichleInfo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehichlenumber"
+            android:hint="Number Of Vehichles"
+            android:layout_marginTop="20sp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:layout_below="@id/radiogroup"
+        android:layout_marginTop="40sp"
+        android:text="Submit" />
+    </RelativeLayout>
+</ScrollView>

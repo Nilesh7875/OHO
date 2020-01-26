@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/travel"
+            android:id="@+id/travel_logo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerText"
+            android:layout_below="@+id/travel_logo"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Register Your Vehicle On OHO:"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehichleTypeText"
+            android:layout_below="@+id/registerText"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Type Of Vehicle :"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/vehichleTypeInput"-->
+            <!--android:layout_below="@+id/vehichleTypeText"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="15dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:hint="Your Vehicle name"/>-->
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehichleTypeInput"
+            android:layout_below="@+id/vehichleTypeText"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehichleNumberText"
+            android:layout_below="@+id/vehichleTypeInput"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Vehicle Number :"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehichleNumberInput"
+            android:layout_below="@+id/vehichleNumberText"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Your Vehicle Number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pinLocationText"
+            android:layout_below="@+id/vehichleNumberInput"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Start Point Of Your Journey :"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pinLocationInput"
+            android:layout_below="@+id/pinLocationText"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Your Source Location "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dropLocationText"
+            android:layout_below="@+id/pinLocationInput"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="End Point Of Your Journey :"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dropLocationInput"
+            android:layout_below="@+id/dropLocationText"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Your Destination "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/JourneyTime"
+            android:layout_below="@+id/dropLocationInput"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Date and Time Of Journey :"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/JourneyTimeInput"
+            android:layout_below="@+id/JourneyTime"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Set Date and Time"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
